@@ -6,11 +6,10 @@ namespace FutureSkill
     {
         static void Main(string[] args)
         {
-            Program program = new Program();
             YourFunction();
         }
 
-        void YourFunction()
+        static void YourFunction()
         {
             Console.WriteLine("Hello world");
             Console.ReadKey();
