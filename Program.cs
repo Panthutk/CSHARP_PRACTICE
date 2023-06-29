@@ -16,7 +16,11 @@ namespace FutureSkill
 
             Console.WriteLine("Name {0},Year {1},Salary {2}", name, year, salary);
 
-
+            //lesson2
+            bool BreakingBad = true;
+            bool NotBreakingBad = false;
+            Console.WriteLine(BreakingBad);
+            Console.WriteLine(NotBreakingBad);
 
         }
 
