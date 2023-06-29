@@ -8,7 +8,7 @@ namespace FutureSkill
         {
             //lesson1
             int year = 1982;
-            string name = "Aqwq";
+            string name = "Aqua";
             float salary = 1603.5f;
             Console.WriteLine("his name is ;{0}", name);
             Console.WriteLine("Born in ;{0}", year);
@@ -24,7 +24,7 @@ namespace FutureSkill
 
             if (BreakingBad)
             {
-                Console.WriteLine("Time to cook jessi");
+                Console.WriteLine("Time to cook jessie");
             }
             else
             {
