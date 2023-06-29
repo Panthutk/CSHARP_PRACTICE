@@ -22,6 +22,15 @@ namespace FutureSkill
             Console.WriteLine(BreakingBad);
             Console.WriteLine(NotBreakingBad);
 
+            if (BreakingBad)
+            {
+                Console.WriteLine("Time to cook jessi");
+            }
+            else
+            {
+                Console.WriteLine("No more cook");
+            }
+
         }
 
 
