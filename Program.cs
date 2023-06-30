@@ -31,6 +31,12 @@ namespace FutureSkill
                 Console.WriteLine("No more cook");
             }
 
+            //lesson3 convert
+            double value_double = 9998.365;
+            int value_convert;
+            value_convert = (int)value_double;
+            Console.WriteLine("cast {0}", value_convert);
+            Console.ReadKey();
         }
 
 
