@@ -46,6 +46,16 @@ namespace FutureSkill
                 Console.WriteLine("i");
                 i++;
             }
+
+            //do while loop
+            int n;
+            Console.WriteLine("Enter 0 to end loop");
+            do
+            {
+                Console.WriteLine("Enter your Number");
+                int.TryParse(Console.ReadLine(), out n);
+                Console.WriteLine("Your Number {0}", n);
+            } while (n != 0);
         }
 
 
