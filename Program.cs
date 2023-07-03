@@ -56,6 +56,7 @@ namespace FutureSkill
                 int.TryParse(Console.ReadLine(), out n);
                 Console.WriteLine("Your Number {0}", n);
             } while (n != 0);
+            Console.WriteLine("This is done");
         }
 
 
