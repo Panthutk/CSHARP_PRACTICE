@@ -43,8 +43,8 @@ namespace FutureSkill
             int i = 0;
             while (i < 15)
             {
-                i++;
                 Console.WriteLine("i");
+                i++;
             }
         }
 
