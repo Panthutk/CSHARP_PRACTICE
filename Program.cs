@@ -38,8 +38,22 @@ namespace FutureSkill
             Console.WriteLine("cast {0}", value_convert);
             Console.WriteLine("cast to string {0}", value_double.ToString());
             Console.ReadKey();
+
+            //lesson4 loop foreach loop
+            int i = 0;
+            while (i < 15)
+            {
+                i++;
+                Console.WriteLine("i");
+            }
         }
+
+
 
 
     }
 }
+
+
+
+
