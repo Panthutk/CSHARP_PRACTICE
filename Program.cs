@@ -2,6 +2,8 @@
 
 namespace FutureSkill
 {
+
+    //dude i just need to create functions to contain all method but why i don't do it i think im just 2 lazy bruh
     class Program
     {
         static void Main(string[] args)
