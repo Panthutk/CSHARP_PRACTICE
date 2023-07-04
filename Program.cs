@@ -59,6 +59,36 @@ namespace FutureSkill
                 Console.WriteLine("Your Number {0}", n);
             } while (n != 0);
             Console.WriteLine("This is done");
+
+            //for loop
+            for (int x = 0; x <= 10; x++)
+            {
+                Console.WriteLine("Loop {0}", x);
+            }
+
+            //array and for each loop
+            string[] models = { "Vios", "toyota", "honda", "fino" };
+            foreach (string b in models)
+            {
+                Console.WriteLine("Models is {0}", b);
+            }
+
+            //break loop
+            for (int z = 0; z <= 10; z++)
+            {
+                Console.WriteLine("Loop {0}", z);
+                if (z == 5) break;
+
+            }
+
+            //continue
+            for (int u = 0; u <= 10; u++)
+            {
+
+                if (u % 2 == 0) continue;
+                Console.WriteLine("Loop {0}", u);
+
+            }
         }
 
 
