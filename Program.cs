@@ -89,6 +89,19 @@ namespace FutureSkill
                 Console.WriteLine("Loop {0}", u);
 
             }
+
+            //lesson 5 if then else
+            int a = 30;
+            if (a < 20)
+            {
+                Console.WriteLine("A is lower than 20");
+            }
+            else
+            {
+                Console.WriteLine("A is more than 20");
+            }
+            Console.WriteLine("A is {0}", a);
+            Console.ReadKey();
         }
 
 
